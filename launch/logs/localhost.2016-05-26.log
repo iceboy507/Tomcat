@@ -1,0 +1,40 @@
+五月 26, 2016 12:53:46 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+五月 26, 2016 12:53:46 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+五月 26, 2016 12:53:46 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@508173d3')
+五月 26, 2016 12:53:56 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextDestroyed()
+五月 26, 2016 12:53:56 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextDestroyed()
+五月 26, 2016 1:05:34 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+五月 26, 2016 1:05:34 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+五月 26, 2016 1:05:34 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@59985be2')
+五月 26, 2016 1:07:15 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: sessionCreated('40B90D79CECB4A18A04D4F9218F8FF4E')
+五月 26, 2016 1:07:20 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: attributeAdded('40B90D79CECB4A18A04D4F9218F8FF4E', 'ddd', 'ddd')
+五月 26, 2016 1:07:27 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: attributeReplaced('40B90D79CECB4A18A04D4F9218F8FF4E', 'ddd', 'ddd')
+五月 26, 2016 1:07:53 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@511f748c')
+五月 26, 2016 1:07:53 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@7e5fb95')
+五月 26, 2016 1:07:55 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: attributeAdded('40B90D79CECB4A18A04D4F9218F8FF4E', 'nickname', 'dd')
+五月 26, 2016 1:07:55 下午 org.apache.catalina.core.ApplicationContext log
+信息: ChatServlet: Begin for session: 40B90D79CECB4A18A04D4F9218F8FF4E
+五月 26, 2016 1:08:04 下午 org.apache.catalina.core.ApplicationContext log
+信息: ChatServlet: Begin for session: 40B90D79CECB4A18A04D4F9218F8FF4E
+五月 26, 2016 1:08:04 下午 org.apache.catalina.core.ApplicationContext log
+信息: ChatServlet: Error for session: 40B90D79CECB4A18A04D4F9218F8FF4E
+五月 26, 2016 1:08:29 下午 org.apache.catalina.core.ApplicationContext log
+信息: ChatServlet: Error for session: 40B90D79CECB4A18A04D4F9218F8FF4E
+五月 26, 2016 1:08:29 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextDestroyed()
+五月 26, 2016 1:08:29 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextDestroyed()

@@ -1,0 +1,118 @@
+六月 02, 2016 9:29:27 上午 org.apache.catalina.startup.Catalina stopServer
+严重: Could not contact localhost:8005. Tomcat may not be running.
+六月 02, 2016 9:29:27 上午 org.apache.catalina.startup.Catalina stopServer
+严重: Catalina.stop: 
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:498)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:343)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:430)
+
+六月 02, 2016 9:30:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.69
+六月 02, 2016 9:30:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Apr 11 2016 07:57:09 UTC
+六月 02, 2016 9:30:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.69.0
+六月 02, 2016 9:30:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+六月 02, 2016 9:30:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+六月 02, 2016 9:30:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+六月 02, 2016 9:30:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\jdk1.8.0_77\jre
+六月 02, 2016 9:30:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_77-b03
+六月 02, 2016 9:30:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+六月 02, 2016 9:30:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         D:\workspace\tomcat7\launch
+六月 02, 2016 9:30:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         D:\workspace\tomcat7\launch
+六月 02, 2016 9:30:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+六月 02, 2016 9:30:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=D:\workspace\tomcat7\launch\conf\logging.properties
+六月 02, 2016 9:30:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+六月 02, 2016 9:30:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=D:\workspace\tomcat7\launch\endorsed
+六月 02, 2016 9:30:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=D:\workspace\tomcat7\launch
+六月 02, 2016 9:30:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=D:\workspace\tomcat7\launch
+六月 02, 2016 9:30:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=D:\workspace\tomcat7\launch\temp
+六月 02, 2016 9:30:32 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+六月 02, 2016 9:30:32 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+六月 02, 2016 9:30:33 上午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+六月 02, 2016 9:30:33 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-apr-8080"]
+六月 02, 2016 9:30:33 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-apr-8009"]
+六月 02, 2016 9:30:33 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 1411 ms
+六月 02, 2016 9:30:33 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+六月 02, 2016 9:30:33 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.69
+六月 02, 2016 9:30:33 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\workspace\tomcat7\launch\webapps\docs
+六月 02, 2016 9:30:34 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\workspace\tomcat7\launch\webapps\docs has finished in 315 ms
+六月 02, 2016 9:30:34 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\workspace\tomcat7\launch\webapps\examples
+六月 02, 2016 9:30:34 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\workspace\tomcat7\launch\webapps\examples has finished in 357 ms
+六月 02, 2016 9:30:34 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\workspace\tomcat7\launch\webapps\host-manager
+六月 02, 2016 9:30:34 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\workspace\tomcat7\launch\webapps\host-manager has finished in 60 ms
+六月 02, 2016 9:30:34 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\workspace\tomcat7\launch\webapps\manager
+六月 02, 2016 9:30:34 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\workspace\tomcat7\launch\webapps\manager has finished in 57 ms
+六月 02, 2016 9:30:34 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\workspace\tomcat7\launch\webapps\ROOT
+六月 02, 2016 9:30:34 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\workspace\tomcat7\launch\webapps\ROOT has finished in 42 ms
+六月 02, 2016 9:30:34 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-apr-8080"]
+六月 02, 2016 9:30:34 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-apr-8009"]
+六月 02, 2016 9:30:34 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 897 ms
+六月 02, 2016 9:30:41 上午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+六月 02, 2016 9:30:41 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-apr-8080"]
+六月 02, 2016 9:30:41 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-apr-8009"]
+六月 02, 2016 9:30:41 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+六月 02, 2016 9:30:41 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-apr-8080"]
+六月 02, 2016 9:30:41 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-apr-8009"]
+六月 02, 2016 9:30:41 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-apr-8080"]
+六月 02, 2016 9:30:41 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-apr-8009"]
